@@ -4,6 +4,14 @@ import NamedOne from "./1.components/1.function/NamedOne";
 import { NamedTwo } from "./1.components/1.function/NamedTwo";
 import Welcome from "./1.components/2.class/Welcome";
 import { WelcomeOne } from "./1.components/2.class/WelcomeOne";
+import LifeCycleA from "./10.life-cycle/LifeCycleA";
+import PostApi from "./11.api-calls/PostApi";
+import StudentApi from "./11.api-calls/StudentApi";
+import TodosApi from "./11.api-calls/TodosApi";
+import UserApi from "./11.api-calls/UserApi";
+import Routing from "./12.routing/Routing";
+import ClassCounter from "./13.hooks/ClassCounter";
+import FunctionCounter from "./13.hooks/FunctionCounter";
 import Hello from "./2.jsx/Hello";
 import Greeting from "./3.props/Greeting";
 import GreetingOne from "./3.props/GreetingOne";
@@ -25,16 +33,30 @@ import NameListFive from "./7.list-rendering/NameListFive";
 import NameListFour from "./7.list-rendering/NameListFour";
 import NameListOne from "./7.list-rendering/NameListOne";
 import NameListThree from "./7.list-rendering/NameListThree";
+import AppStyles from "./8.styling/AppStyles";
 import Inline from "./8.styling/Inline";
 import Stylesheet from "./8.styling/Stylesheet";
+import UserForm from "./9.form-data/UserForm";
+import UserFormOne from "./9.form-data/UserFormOne";
 
 function App() {
   function getTitle(title) {
     return title
   }
   return (
-    <div className="container">
-      <Inline />
+    <div>
+      <FunctionCounter />
+      {/* <ClassCounter /> */}
+      {/* <Routing /> */}
+      {/* <StudentApi /> */}
+      {/* <UserApi /> */}
+      {/* <TodosApi /> */}
+      {/* <PostApi /> */}
+      {/* <LifeCycleA /> */}
+      {/* <UserFormOne /> */}
+      {/* <UserForm /> */}
+      {/* <AppStyles /> */}
+      {/* <Inline /> */}
       {/* <Stylesheet primary={false}/> */}
       {/* <NameListFive /> */}
       {/* <NameListFour /> */}

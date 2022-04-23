@@ -109,7 +109,7 @@ LifeCycle Methods
 -> constructor
 -> static getDerivedStateFromProps
 -> render
--> componentDidMount 
+-> ComponentDidMount 
 
 constructor - A special function that will get called whenever 
               a new component is created
